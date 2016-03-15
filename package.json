@@ -1,0 +1,27 @@
+{
+  "name": "todo-api",
+  "version": "0.1.0",
+  "description": "API for Todo",
+  "main": "todo.js",
+  "author": {
+    "name": "Simone Spaccarotella",
+    "email": "simone.spaccarotella@bbc.co.uk"
+  },
+  "scripts": {
+    "start": "nodemon todo.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.5.2",
+    "express": "~4.7.2",
+    "morgan": "~1.2.2",
+    "nconf": "^0.8.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^0.4.5"
+  }
+}

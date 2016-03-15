@@ -4,7 +4,7 @@ var expect = require('chai').expect;
 
 describe('persistence', function() {
 
-    var persistence = require('../../lib/persistence');
+    var persistence = require('../lib/persistence');
 
     /*
      * This method test the clear() method
@@ -12,10 +12,6 @@ describe('persistence', function() {
     beforeEach(function() {
         persistence.clear();
     });
-
-    // getByTitle
-    // update
-    // delete
 
     describe('create(todo)', function() {
 
